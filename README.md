@@ -29,7 +29,6 @@ bash v2ray.sh
 
 ### Ubuntu 18.04 魔改 BBR 暂时有点问题，可使用以下命令安装：
 
-##### wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh"
-apt install make gcc -y
+##### wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" apt install make gcc -y
 sed -i 's#/usr/bin/gcc-4.9#/usr/bin/gcc#g' '/root/tcp.sh'
 chmod +x tcp.sh && ./tcp.sh
