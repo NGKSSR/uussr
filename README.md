@@ -18,14 +18,14 @@ bash v2ray.sh
 
 注意：该脚本在Vultr各个系统均测试通过，如果期间有出现任何问题，可向原作者反映帮助改善。
 
-#### 运行以下命令：
+运行以下命令：
 
 ##### wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
 
-#### 执行完以上命令后若出现
+执行完以上命令后若出现
 #### -bash: wget: command not found
-#### 请执行以下命令(执行完此命令后重新执行上面安装命令即可):
-##### yum -y install wget
+请执行以下命令(执行完此命令后重新执行上面安装命令即可):
+#### yum -y install wget
 
 ### Ubuntu 18.04 魔改 BBR 暂时有点问题，可使用以下命令安装：
 
