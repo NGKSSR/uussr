@@ -1,7 +1,7 @@
 # uussr
 UUSSR-科学上网
 
-安装说明:
+## 安装说明:
 mkdir v2ray-agent  &&  \
 cd v2ray-agent && \
 curl https://raw.githubusercontent.com/NGKSSR/uussr/master/v2ray.sh -o v2ray.sh && \
