@@ -2,7 +2,7 @@ version: '2'
 
 services:
   v2ray:
-    image: ephz3nt/v2ray_v3:go
+    image: "xxx/xxx:xxx"
     restart: always
     network_mode: "host"
     environment:
@@ -23,7 +23,7 @@ services:
       usemysql: 0
       CF_Key: "bbbbbbbbbbbbbbbbbb"
       CF_Email: "v2rayV3@test.com"
-      MUREGEX: "%5m%id.%suffix"
+      MUREGEX: "www.baidu.com"
       MUSUFFIX: "www.baidu.com"
     volumes:
       - /etc/localtime:/etc/localtime:ro
